@@ -1,0 +1,36 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="restful:war exploded">
+    <output-path>$PROJECT_DIR$/target/restful</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="restful" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.2.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.2.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.2.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.2.4.RELEASE" />
+          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.2.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.2.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:4.2.4.RELEASE" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.4.2" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.4.2" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.4.0" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-oxm:4.2.4.RELEASE" />
+          <element id="library" level="project" name="Maven: net.sf.json-lib:json-lib:2.4" />
+          <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.8.0" />
+          <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
+          <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.5" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.1.1" />
+          <element id="library" level="project" name="Maven: net.sf.ezmorph:ezmorph:1.0.6" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/restful/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="restful/web/Web" />
+    </root>
+  </artifact>
+</component>
